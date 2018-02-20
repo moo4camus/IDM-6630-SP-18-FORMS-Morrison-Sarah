@@ -1,0 +1,80 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    padding: 1em 0;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5em;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: 200%;
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h3, a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+    color: #ff6842;
+}
+
+.site_list {
+    
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    color: #2ce8bf;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em 0 
+}
+
+
+form {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80%;
+}
+
+input[type=submit] {
+    background: white;
+    color: black;
+    border: 0.5px black solid;
+    padding: 0.5em;
+    margin: 0.2em;
+    width: 15%;
+}
+
+input[type=submit]:hover {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    margin: 0.2em;
+    width: 15%;
+}
+
+
